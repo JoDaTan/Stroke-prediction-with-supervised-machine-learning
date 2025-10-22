@@ -69,4 +69,9 @@ The dataset used is from [Kaggle’s Stroke Prediction Dataset](https://www.kagg
 
 5. **Model Interpretation**
     Since Logistic Regression does not provide feature importance like tree-based models, interpretability was achieved using Feature Coefficient Analysis which helps to understand the direction and magnitude of each feature.
-     <br>The model highlights `age `, `glucose level`, `hypertension`, `heart disease`, and `smoking` as key risk factors. In contrast,  active employment and non-smoking status act as protective factors. 
+     <br>The model highlights `age `, `glucose level`, `hypertension`, `heart disease`, and `smoking` as key risk factors. In contrast,  active employment and non-smoking status act as protective factors.
+
+6. **Future Work**
+   - Implement SHAP for in-depth feature explanations
+   - Train deep learning models for further improvements
+   - Deploy Streamlit for interactive stroke risk prediction.
